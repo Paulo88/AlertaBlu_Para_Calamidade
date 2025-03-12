@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlertaBlu - Autoajuda para Vítimas de Desastres</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            text-align: center;
+        }
+        header {
+            background: url('emergência-calamidade.jpg') center/cover no-repeat;
+            color: white;
+            padding: 200px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 250px;
+        }
+        .intro, .resources {
+            margin: 40px 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            margin-top: 40px;
+        }
+        .button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Recomeço Logo" class="logo">
+        <h1>.</h1>
+        <p>.</p>
+    </header>
+    
+    <main>
+        <section class="intro">
+             <h2>Você não está sozinho!</h2>
+            <p>Nosso objetivo é oferecer suporte emocional e prático para aqueles que passaram por situações difíceis.</p>
+            <button class="button">Saiba Mais</button>
+        </section>
+        
+        <section class="resources">
+            <h2>Recursos Disponíveis</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Apoio Psicológico</h3>
+                    <p>Conecte-se com especialistas e grupos de apoio.</p>
+                </div>
+                <div class="card">
+                    <h3>Guia de Recursos</h3>
+                    <p>Informações sobre abrigos, alimentação e serviços sociais.</p>
+                </div>
+                <div class="card">
+                    <h3>Histórias de Superação</h3>
+                    <p>Leia relatos inspiradores de quem superou desafios.</p>
+                </div>
+                <div class="card">
+                    <h3>Ajuda Legal</h3>
+                    <p>Informações sobre direitos e assistência jurídica.</p>
+                </div>
+                <div class="card">
+                    <h3>Doações e Voluntariado</h3>
+                    <p>Saiba como contribuir para ajudar outras vítimas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 AlertaBlu. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => alert("Bem-vindo ao Recomeço! Estamos aqui para ajudar você."), 1000);
+        });
+    </script>
+</body>
+</html>
